@@ -219,3 +219,131 @@ display: flex;
     background-image: linear-gradient(to right, #f1e5fc, #e0eefb, #d7f2ec);
     border-radius: 20px;
 }
+
+.bold{
+    font-weight: bold;
+}
+
+.container-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    align-items: center ;
+    justify-content: center;
+}
+
+.a4-img img{
+    width: 100px;
+}
+
+.a4-text{
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container-5 h1{
+    font-size: 2.5em;
+}
+
+.a5-text{
+    max-width: 800px;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+.a6-text{
+    max-width: 1000px;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+.container-5 img{
+    width: 70vh;
+    margin-top: 50px;
+}
+
+.sp-text{
+    background-color: #ececed;
+    padding: 2px 5px;
+    border: 1px #e0e0e0 solid;
+    border-radius: 10px;
+}
+
+.container-6{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    gap: 40px;
+    background-color: #f3f3f5;
+    padding-top: 20px;
+    font-weight: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-6-ii{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-6 h1{
+    font-size: 2.8em;
+}
+
+.text-side{
+    max-width: 400px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logos img{
+    width: 80px;
+    border-radius: 20px;
+    margin: 0 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.logos p{
+    margin-bottom: 10px;
+}
+
+
+.container-7{
+    background-image: url('./assets/backdrop-2.png');
+    background-size: cover;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+}
+
+.section-7-i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 180px 0;   
+    opacity: 1;
+}
